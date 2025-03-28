@@ -19,6 +19,10 @@ function useQuery(url) {
   // we want to use the side effect whenever the url changes
 
   // return an *object* with the data and isLoaded state
+  // return {
+  //   data: data,
+  //   isLoaded: isLoaded,
+  // };
   return { data, isLoaded };
 }
 

@@ -4,6 +4,7 @@ export function makeEmojiList(minutes) {
 
   let emojis = "";
   for (let i = 0; i < minutes; i += interval) {
+    console.log(i += interval)
     emojis += emoji;
   }
 
